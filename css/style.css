@@ -743,6 +743,15 @@ a:focus {
     border-color: #1d2434;
 }
 
+.syllabus {
+    margin-top: 25px;
+}
+.syllabus h3 {
+    margin: 0 0 10px 40px;
+    position: relative;
+    font-size: 35px;
+    font-weight: 200;
+}
 
 /*******************************/
 /********* Feature CSS *********/
