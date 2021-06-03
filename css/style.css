@@ -239,7 +239,7 @@ a:focus {
     }
     
     .page .navbar {
-        background: #092a49 !important;
+        background: #35a8fe !important;
     }
     
     .navbar a.nav-link {
@@ -770,8 +770,8 @@ a:focus {
 }
 
 #syllabus-request:hover {
-    color: #0796fe;
-    background: #092a49;
+    color: #ffffff;
+    background: #35a8fe;
 }
 
 /*******************************/
