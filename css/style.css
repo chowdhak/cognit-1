@@ -198,8 +198,8 @@ a:focus {
 }
 
 .navbar-brand-logo {
-    max-width: 45px;
-    max-height: 45px;
+    max-width: 55px;
+    max-height: 55px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -235,11 +235,11 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #35a8fe !important;
+        background: #097dd4 !important;
     }
     
     .page .navbar {
-        background: #35a8fe !important;
+        background: #097dd4 !important;
     }
     
     .navbar a.nav-link {
@@ -253,7 +253,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #092a49 !important;
+        background: #097dd4 !important;
     }
     
     .navbar a.nav-link {
