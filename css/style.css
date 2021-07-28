@@ -109,10 +109,9 @@ a:hover, a:active, a:focus {
     color: #ffffff;
 }
 
-.top-bar .text .announcement {}
-
 .top-bar .text:last-child {
     border-right: 1px solid rgba(255, 255, 255, .15);
+    text-transform: uppercase;
 }
 
 .top-bar .text i {
@@ -213,7 +212,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
-    color: #0796fe;
+    color: #6bcdc8;
     transition: none;
 }
 
@@ -236,6 +235,15 @@ a:hover, a:active, a:focus {
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #097dd4 !important;
+    }
+    .nav-annoucement {
+        font-size: 20px;
+        color: #ce0000;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+        text-transform: uppercase;
     }
     .page .navbar {
         background: #097dd4 !important;
