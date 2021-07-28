@@ -1,18 +1,18 @@
 /*******************************/
+
+
 /********* General CSS *********/
+
+
 /*******************************/
+
 body {
     color: #797979;
     background: #ffffff;
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2, 
-h3, 
-h4,
-h5, 
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #092a49;
     font-family: 'Oswald', sans-serif;
 }
@@ -22,16 +22,13 @@ a {
     transition: .3s;
 }
 
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
     color: #092a49;
     outline: none;
     text-decoration: none;
 }
 
-.btn:focus,
-.form-control:focus {
+.btn:focus, .form-control:focus {
     box-shadow: none;
 }
 
@@ -75,8 +72,13 @@ a:focus {
 
 
 /**********************************/
+
+
 /********** Top Bar CSS ***********/
+
+
 /**********************************/
+
 .top-bar {
     position: relative;
     height: 35px;
@@ -107,9 +109,7 @@ a:focus {
     color: #ffffff;
 }
 
-.top-bar .text .announcement {
-
-}
+.top-bar .text .announcement {}
 
 .top-bar .text:last-child {
     border-right: 1px solid rgba(255, 255, 255, .15);
@@ -171,8 +171,13 @@ a:focus {
 
 
 /**********************************/
+
+
 /*********** Nav Bar CSS **********/
+
+
 /**********************************/
+
 .navbar {
     position: relative;
     transition: .5s;
@@ -202,16 +207,12 @@ a:focus {
     max-height: 55px;
 }
 
-.navbar-dark .navbar-nav .nav-link,
-.navbar-dark .navbar-nav .nav-link:focus,
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
     color: #ffffff;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active {
     color: #0796fe;
     transition: none;
 }
@@ -232,16 +233,13 @@ a:focus {
         background: rgba(9, 42, 73, .2)!important;
         z-index: 9;
     }
-    
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #097dd4 !important;
     }
-    
     .page .navbar {
         background: #097dd4 !important;
     }
-    
     .navbar a.nav-link {
         padding: 8px 15px;
         font-size: 14px;
@@ -250,16 +248,14 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: #097dd4 !important;
     }
-    
     .navbar a.nav-link {
         padding: 5px;
     }
-    
     .navbar .dropdown-menu {
         box-shadow: none;
     }
@@ -267,8 +263,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /********** Hero CSS ***********/
+
+
 /*******************************/
+
 .carousel {
     position: relative;
     width: 100%;
@@ -323,10 +324,10 @@ a:focus {
     max-width: 700px;
     height: calc(100vh - 35px);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     z-index: 2;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .carousel .carousel-text h1 {
@@ -387,8 +388,7 @@ a:focus {
     z-index: 9;
 }
 
-.carousel .owl-nav .owl-prev,
-.carousel .owl-nav .owl-next {
+.carousel .owl-nav .owl-prev, .carousel .owl-nav .owl-next {
     width: 60px;
     height: 60px;
     display: flex;
@@ -400,8 +400,7 @@ a:focus {
     transition: .5s;
 }
 
-.carousel .owl-nav .owl-prev:hover,
-.carousel .owl-nav .owl-next:hover {
+.carousel .owl-nav .owl-prev:hover, .carousel .owl-nav .owl-next:hover {
     color: #ffffff;
     background: #0796fe;
 }
@@ -441,20 +440,15 @@ a:focus {
 }
 
 @media (max-width: 991.98px) {
-    .carousel,
-    .carousel .carousel-item,
-    .carousel .carousel-text {
+    .carousel, .carousel .carousel-item, .carousel .carousel-text {
         height: calc(100vh - 105px);
     }
-    
     .carousel .carousel-text h1 {
         font-size: 35px;
     }
-    
     .carousel .carousel-text p {
         font-size: 16px;
     }
-    
     .carousel .carousel-text .btn {
         padding: 12px 30px;
         font-size: 15px;
@@ -463,16 +457,12 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
-    .carousel,
-    .carousel .carousel-item,
-    .carousel .carousel-text {
+    .carousel, .carousel .carousel-item, .carousel .carousel-text {
         height: calc(100vh - 70px);
     }
-    
     .carousel .carousel-text h1 {
         font-size: 30px;
     }
-    
     .carousel .carousel-text .btn {
         padding: 10px 25px;
         font-size: 15px;
@@ -484,7 +474,6 @@ a:focus {
     .carousel .carousel-text h1 {
         font-size: 25px;
     }
-    
     .carousel .carousel-text .btn {
         padding: 8px 20px;
         font-size: 14px;
@@ -494,8 +483,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /******* Section Header ********/
+
+
 /*******************************/
+
 .section-header {
     position: relative;
     text-align: left;
@@ -523,11 +517,11 @@ a:focus {
     top: 23px;
     left: -40px;
     border-bottom: 30px solid;
-    border-image: repeating-linear-gradient( 60deg, rgba(0,0,0,.05), rgba(0,0,0,.05) 1.5%, rgba(0,0,0,.1) 1.5%, rgba(0,0,0,.1) 3%) 30;
+    border-image: repeating-linear-gradient( 60deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) 1.5%, rgba(0, 0, 0, .1) 1.5%, rgba(0, 0, 0, .1) 3%) 30;
 }
 
 .section-header h2:hover::after {
-    border-image: repeating-linear-gradient( 60deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1.5%, rgba(0,0,0,.05) 1.5%, rgba(0,0,0,.05) 3%) 30;
+    border-image: repeating-linear-gradient( 60deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) 1.5%, rgba(0, 0, 0, .05) 1.5%, rgba(0, 0, 0, .05) 3%) 30;
 }
 
 @media (max-width: 991.98px) {
@@ -550,8 +544,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /********** Fact CSS ***********/
+
+
 /*******************************/
+
 .fact {
     position: relative;
     width: 100%;
@@ -588,8 +587,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /********** About CSS **********/
+
+
 /*******************************/
+
 .about {
     position: relative;
     width: 100%;
@@ -618,12 +622,12 @@ a:focus {
     left: 60px;
     background: transparent;
     border: 30px solid;
-    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.05), rgba(0,0,0,.05) .5%, rgba(0,0,0,.1) .5%, rgba(0,0,0,.1) 1%) 30;
+    border-image: repeating-linear-gradient( 45deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) .5%, rgba(0, 0, 0, .1) .5%, rgba(0, 0, 0, .1) 1%) 30;
     z-index: 1;
 }
 
 .about .about-img:hover::after {
-    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.1), rgba(0,0,0,.1) .5%, rgba(0,0,0,.05) .5%, rgba(0,0,0,.05) 1%) 30;
+    border-image: repeating-linear-gradient( 45deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) .5%, rgba(0, 0, 0, .05) .5%, rgba(0, 0, 0, .05) 1%) 30;
 }
 
 .about .about-img-1 {
@@ -642,8 +646,7 @@ a:focus {
     z-index: 1;
 }
 
-.about .about-img-1 img,
-.about .about-img-2 img {
+.about .about-img-1 img, .about .about-img-2 img {
     position: relative;
     width: 100%;
 }
@@ -680,8 +683,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /********* Service CSS *********/
+
+
 /*******************************/
+
 .service {
     position: relative;
     width: 100%;
@@ -746,6 +754,7 @@ a:focus {
 .syllabus {
     margin-top: 25px;
 }
+
 .syllabus h3 {
     margin: 0 0 10px 40px;
     position: relative;
@@ -774,9 +783,15 @@ a:focus {
     background: #35a8fe;
 }
 
+
 /*******************************/
+
+
 /********* Feature CSS *********/
+
+
 /*******************************/
+
 .feature {
     position: relative;
     width: 100%;
@@ -804,12 +819,12 @@ a:focus {
     top: 30%;
     left: 0;
     border: 30px solid;
-    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.05), rgba(0,0,0,.05) .5%, rgba(0,0,0,.1) .5%, rgba(0,0,0,.1) 1%) 30;
+    border-image: repeating-linear-gradient( 45deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) .5%, rgba(0, 0, 0, .1) .5%, rgba(0, 0, 0, .1) 1%) 30;
     z-index: 1;
 }
 
 .feature .feature-img:hover::after {
-    border-image: repeating-linear-gradient( 45deg, rgba(0,0,0,.1), rgba(0,0,0,.1) .5%, rgba(0,0,0,.05) .5%, rgba(0,0,0,.05) 1%) 30;
+    border-image: repeating-linear-gradient( 45deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) .5%, rgba(0, 0, 0, .05) .5%, rgba(0, 0, 0, .05) 1%) 30;
 }
 
 .feature .feature-img img {
@@ -861,8 +876,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /*********** Team CSS **********/
+
+
 /*******************************/
+
 .team {
     position: relative;
     width: 100%;
@@ -938,8 +958,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /******* Testimonial CSS *******/
+
+
 /*******************************/
+
 .testimonial {
     position: relative;
     width: 100%;
@@ -1014,8 +1039,7 @@ a:focus {
     justify-content: center;
 }
 
-.testimonial .owl-nav .owl-prev,
-.testimonial .owl-nav .owl-next {
+.testimonial .owl-nav .owl-prev, .testimonial .owl-nav .owl-next {
     position: relative;
     width: 100px;
     display: flex;
@@ -1034,13 +1058,11 @@ a:focus {
     padding-left: 80px;
 }
 
-.testimonial .owl-nav .owl-prev:hover,
-.testimonial .owl-nav .owl-next:hover {
+.testimonial .owl-nav .owl-prev:hover, .testimonial .owl-nav .owl-next:hover {
     color: #092a49;
 }
 
-.testimonial .owl-nav .owl-prev::after,
-.testimonial .owl-nav .owl-next::after {
+.testimonial .owl-nav .owl-prev::after, .testimonial .owl-nav .owl-next::after {
     position: absolute;
     content: "";
     width: 80px;
@@ -1066,9 +1088,15 @@ a:focus {
     background: #092a49;
 }
 
+
 /*******************************/
+
+
 /* Services Item */
+
+
 /******************************/
+
 #services {
     position: relative;
     width: 100%;
@@ -1087,55 +1115,55 @@ a:focus {
 
 #services .item-boxes {
     height: 400px;
-      border: 5px solid #eaeaea;
+    border: 5px solid #eaeaea;
 }
 
 .item-boxes {
-  padding: 30px;
-  border-radius: 4px;
-  border: 1px solid #eaeaea;
-  margin: 15px 0;
-  webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    margin: 15px 0;
+    webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .item-boxes .icon {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .item-boxes .icon i {
-  font-size: 30px;
-  line-height: 60px;
-  color: #F97794;
+    font-size: 30px;
+    line-height: 60px;
+    color: #F97794;
 }
 
 .item-boxes h4 {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .item-boxes p {
-  margin: 0;
+    margin: 0;
 }
 
 .item-boxes:hover {
-  background: transparent;
-  box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
+    background: transparent;
+    box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
 }
 
 .services-item {
-  padding: 30px 15px;
-  background: #fff;
-  border-radius: 4px;
-  text-align: center;
-  margin-bottom: 30px;
-  position: relative;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+    padding: 30px 15px;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .services-item li {
@@ -1143,108 +1171,114 @@ a:focus {
 }
 
 .services-item .icon {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .services-item .icon i {
-  width: 30px;
-  height: 30px;
-  background: #f9f9f9;
-  display: inline-block;
-  line-height: 60px;
-  font-size: 24px;
-  text-align: center;
-  border-radius: 50%;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+    width: 30px;
+    height: 30px;
+    background: #f9f9f9;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .services-item .color-1 i {
-  background: #FAE3E3;
-  color: #D82928 !important;
+    background: #FAE3E3;
+    color: #D82928 !important;
 }
 
 .services-item .color-2 i {
-  background: #E6F8ED;
-  color: #57D283 !important;
+    background: #E6F8ED;
+    color: #57D283 !important;
 }
 
 .services-item .color-3 i {
-  background: #E3EAFA;
-  color: #457BF4 !important;
+    background: #E3EAFA;
+    color: #457BF4 !important;
 }
 
 .services-item .color-4 i {
-  background: #F3EAD6;
-  color: #f1a90a !important;
+    background: #F3EAD6;
+    color: #f1a90a !important;
 }
 
 .services-item .color-5 i {
-  background: #E7E6FF;
-  color: #7271FF !important;
+    background: #E7E6FF;
+    color: #7271FF !important;
 }
 
 .services-item .color-6 i {
-  background: #DEDEDE;
-  color: #35393D !important;
+    background: #DEDEDE;
+    color: #35393D !important;
 }
 
 .services-item .color-7 i {
-  background: #DEDEDE;
-  color: #ea290a !important;
+    background: #DEDEDE;
+    color: #ea290a !important;
 }
 
 .services-item .color-8 i {
-  background: #DEDEDE;
-  color: #35393D !important;
+    background: #DEDEDE;
+    color: #35393D !important;
 }
 
 .services-item .color-9 i {
-  background: #DEDEDE;
-  color: #35393D !important;
+    background: #DEDEDE;
+    color: #35393D !important;
 }
 
 .services-item .services-content {
-  padding-left: 65px;
+    padding-left: 65px;
 }
 
 .services-item .services-content h3 {
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .services-item .services-content h3 a {
-  color: #272727;
+    color: #272727;
 }
 
 .services-item .services-content h3 a:hover {
-  color: #F97794;
+    color: #F97794;
 }
 
 .services-item:hover {
-  box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
+    box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
 }
 
 .services-item:hover .icon i {
-  background: transparent;
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+    background: transparent;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
+
 /*******************************/
+
+
 /*********** Blog CSS **********/
+
+
 /*******************************/
+
 .blog {
     position: relative;
     width: 100%;
@@ -1361,8 +1395,7 @@ a:focus {
     justify-content: center;
 }
 
-.blog .owl-nav .owl-prev,
-.blog .owl-nav .owl-next {
+.blog .owl-nav .owl-prev, .blog .owl-nav .owl-next {
     position: relative;
     width: 100px;
     display: flex;
@@ -1381,13 +1414,11 @@ a:focus {
     padding-left: 80px;
 }
 
-.blog .owl-nav .owl-prev:hover,
-.blog .owl-nav .owl-next:hover {
+.blog .owl-nav .owl-prev:hover, .blog .owl-nav .owl-next:hover {
     color: #092a49;
 }
 
-.blog .owl-nav .owl-prev::after,
-.blog .owl-nav .owl-next::after {
+.blog .owl-nav .owl-prev::after, .blog .owl-nav .owl-next::after {
     position: absolute;
     content: "";
     width: 80px;
@@ -1424,8 +1455,7 @@ a:focus {
     border-color: #092a49;
 }
 
-.blog .pagination .page-link:hover,
-.blog .pagination .page-item.active .page-link {
+.blog .pagination .page-link:hover, .blog .pagination .page-item.active .page-link {
     color: #0796fe;
     background: #092a49;
 }
@@ -1436,8 +1466,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /********* Contact CSS *********/
+
+
 /*******************************/
+
 .contact {
     position: relative;
     width: 100%;
@@ -1445,7 +1480,7 @@ a:focus {
 }
 
 #contact-us-page {
-        padding: 128px 0 15px 0;
+    padding: 128px 0 15px 0;
 }
 
 .contact .contact-info {
@@ -1549,8 +1584,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /******* Single Page CSS *******/
+
+
 /*******************************/
+
 .single {
     position: relative;
     width: 100%;
@@ -1562,8 +1602,7 @@ a:focus {
     margin: 0 0 25px 0;
 }
 
-.single .table,
-.single .list-group {
+.single .table, .single .list-group {
     margin-bottom: 30px;
 }
 
@@ -1590,8 +1629,13 @@ a:focus {
 
 
 /*******************************/
+
+
 /********* Footer CSS **********/
+
+
 /*******************************/
+
 .footer {
     position: relative;
     margin-top: 45px;
@@ -1599,17 +1643,13 @@ a:focus {
     background: #35a8fe;
 }
 
-.footer .footer-contact,
-.footer .footer-link,
-.footer .footer-newsletter {
+.footer .footer-contact, .footer .footer-link, .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
     color: #ffffff;
 }
 
-.footer .footer-contact h2,
-.footer .footer-link h2,
-.footer .footer-newsletter h2 {
+.footer .footer-contact h2, .footer .footer-link h2, .footer .footer-newsletter h2 {
     position: relative;
     margin-bottom: 30px;
     padding-bottom: 10px;
@@ -1619,9 +1659,7 @@ a:focus {
     color: #ffffff;
 }
 
-.footer .footer-contact h2::after,
-.footer .footer-link h2::after,
-.footer .footer-newsletter h2::after {
+.footer .footer-contact h2::after, .footer .footer-link h2::after, .footer .footer-newsletter h2::after {
     position: absolute;
     content: "";
     width: 45px;
@@ -1737,8 +1775,7 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
-    .footer .copyright p,
-    .footer .copyright .col-md-6:last-child p {
+    .footer .copyright p, .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
         text-align: center;
     }
