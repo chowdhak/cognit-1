@@ -236,12 +236,12 @@ a:hover, a:active, a:focus {
         padding: 10px 60px;
         background: #097dd4 !important;
     }
-    .nav-annoucement {
-        font-size: 20px;
+    .nav-announcement {
+        font-size: 18px;
         color: #ce0000;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 5px;
         margin-right: 5px;
         text-transform: uppercase;
     }
